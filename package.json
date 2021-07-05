@@ -1,0 +1,9 @@
+{
+  "name": "my-nodejs-firebase",
+  "version": "0.0.0",
+  "description": "myNodejsFirebase",
+  "main": "app.js",
+  "author": {
+    "name": "aljanin"
+  }
+}

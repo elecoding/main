@@ -1,0 +1,167 @@
+﻿<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <link href="bootstrap/bootstrap.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
+
+    <script type="text/javascript" src="bootstrap/bootstrap.min.js"></script>
+
+
+
+    <!--<script type="text/javascript" src="js/facefont.js"></script>-->
+
+    <script type="text/javascript" src="login.js"></script>
+
+
+    <style>
+        .fontFace {
+            color: white;
+        }
+
+        .bodyTable {
+            width: calc(100%/2);
+            word-break: break-word;
+            height: calc(100%/2);
+        }
+
+        .HomeAutbtn {
+            opacity: 0.7;
+            font-size: large;
+            width: 50%;
+        }
+
+        input {
+            opacity: 0.7;
+        }
+
+        label {
+            color: white;
+        }
+
+        .opac {
+            opacity: 0.7;
+        }
+
+        /* Style the navigation menu */
+        .topnav {
+            overflow: hidden;
+            /* background-color: #304ea0;*/
+            position: relative;
+        }
+
+            /* Hide the links inside the navigation menu (except for logo/home) */
+            .topnav #myLinks {
+                display: none;
+            }
+
+            /* Style navigation menu links */
+            .topnav a {
+                /* color: white;*/
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+                display: block;
+            }
+
+                /* Style the hamburger menu */
+                .topnav a.icon {
+                    background: #ff0000;
+                    display: block;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }
+
+                /* Add a grey background color on mouse-over */
+                .topnav a:hover {
+                    background-color: #ddd;
+                    color: black;
+                }
+
+        /* Style the active link (or home/logo) */
+        .active {
+            /* background-color: rgba(225, 225, 225, 0.87);
+                        */ color: white;
+        }
+    </style>
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="font-family: 'Segoe UI';
+        background-image: url('image/main2.jpg');
+        background-position: center">
+    <div class="container-fluid" style=" width: 360px;height:540px;
+         font-family: 'Segoe UI' ;align-content:center " id="login_Container">
+        <div class="row text-center">
+            <div class="col-sm-12 text-center">
+                <hr />
+
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12 text-center" style="width:100%">
+
+
+                <div class="panel panel-default" style=" display: inline-block; margin: 0 auto;background-image:url('image/bg.jpg');width:100%;">
+
+                    <div class=" panel-heading" style="background-color:#ddd">
+
+                        <div><label style="color:darkgray;">Login Page.</label></div>
+
+
+
+                    </div>
+
+
+                    <div id="pnlLogin" class="panel-body">
+                        <form class="" id="frmLogin" style="width:70%;margin: 0 auto">
+                            <div class="text-center "><span class="fas fa-home label" style="font-size:small">Send Local SMS From Anyware! </span></div>
+                            <hr />
+
+                            <div class="form-group text-center" style="text-align:left">
+                                <label for="txtUserName" style="font-size:small">user:</label>
+                                <input type="text" class="form-control" id="txtUserName" value="">
+                            </div>
+
+                            <div class="form-group" style="text-align:left">
+                                <label for="txtPassword" style="font-size:small">Password:</label>
+                                <input type="password" class="form-control" id="txtPassword">
+                            </div>
+                            <input type="hidden" id="sessID" name="sessID" value="_3305">
+
+                            <button class="btn btn-primary" id="btnLogin" style="margin:auto 0">Send</button>
+
+
+                        </form>
+
+
+                    </div>
+                    <div class="panel-footer">Copy rights reserved. elecoding@gmail.com</div>
+
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+</body>
+</html>
+
+
